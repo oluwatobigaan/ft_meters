@@ -30,7 +30,7 @@ while True:
         result2 = f"{inches2meters(result)} m"
         match event:
             case "Convert":
-                    window["output"].update(value=result2)
+                window["output"].update(value=result2)
 
             case "Exit":
                 break
