@@ -25,9 +25,9 @@ while True:
         def ft2inches(ans1):
             return ans1 * 12
         result = ft2inches(ans1) + ans2
-        def inches2inches(result):
+        def inches2meters(result):
             return result * 0.0254
-        result2 = f"{inches2inches(result)} m"
+        result2 = f"{inches2meters(result)} m"
         match event:
             case "Convert":
                     window["output"].update(value=result2)
