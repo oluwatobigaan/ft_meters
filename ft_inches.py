@@ -38,7 +38,8 @@ while True:
                 break
     except ValueError:
         if event == "Convert":
-            sg.popup("Please enter numbers in the input boxes!", font=("Helvetica", 10), text_color="red")
+            sg.popup("Please enter numbers in the input boxes!",
+                     font=("Helvetica", 10), text_color="red")
         else:
             break
     except TypeError:
